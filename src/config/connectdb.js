@@ -14,7 +14,7 @@ const { Sequelize } = require('sequelize');
 const sequelize = new Sequelize('hoidanit', 'root', null, {
   host: 'localhost',
   dialect: /* one of 'mysql' | 'postgres' | 'sqlite' | 'mariadb' | 'mssql' | 'db2' | 'snowflake' | 'oracle' */ 'mysql',
-  logging: false
+  logging: false,
 });
 
 let connectDB = async ()=>{ 
